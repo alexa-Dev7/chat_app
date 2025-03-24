@@ -1,7 +1,7 @@
 <?php
-session_start();
 include 'session.php';
 
+// Load messages
 $messagesFile = '../data/messages.json';
 $messages = file_exists($messagesFile) ? json_decode(file_get_contents($messagesFile), true) : [];
 
