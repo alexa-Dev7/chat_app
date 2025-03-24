@@ -14,7 +14,7 @@ $users = file_exists('../data/users.json') ? json_decode(file_get_contents('../d
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chat_app/php/styles.css">
     <script>
         let currentChat = "";
 
